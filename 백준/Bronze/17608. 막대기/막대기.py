@@ -1,7 +1,7 @@
 import sys
 N=int(sys.stdin.readline())
 sticks=[]
-now=0
+
 cnt=1
 for i in range(N):
     stick=int(sys.stdin.readline())
