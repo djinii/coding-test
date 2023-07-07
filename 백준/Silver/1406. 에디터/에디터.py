@@ -24,6 +24,6 @@ for _ in range(times):
         if left_text:
             left_text.pop()
 
-# 문자열을 합치는 과정에서 문자열 연산 대신 join() 메서드를 사용합니다.
+# 문자열을 합치는 과정에서 문자열 연산 대신 join() 메서드를 사용
 result = ''.join(left_text + right_text[::-1])
 print(result)
