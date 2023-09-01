@@ -7,7 +7,7 @@ def solution(array, commands):
         b = commands[j][1]
         c = commands[j][2]
 
-        new_arr = array[a-1:(b)]
+        new_arr = array[a-1:b]
         new_arr.sort()
 
         answer.append(new_arr[c-1])
