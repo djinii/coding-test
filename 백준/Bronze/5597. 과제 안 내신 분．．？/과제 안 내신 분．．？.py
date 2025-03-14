@@ -1,9 +1,13 @@
-import sys
-input=sys.stdin.readline
-students=[]
-students_list=[]
-for _ in range(1,29):
-    students.append(int(input().strip()))
-for i in range(1,31):
-    if(i not in students):
-        print(i)
+students = [0] * 30
+[0, 1, 0, 1, 1, ]
+
+for i in range(28) :
+    n = int(input())
+    students[n-1] = 1
+
+a = students.index(0)
+print(a+1)
+students[a] = 1
+
+a = students.index(0)
+print(a+1)
