@@ -1,10 +1,7 @@
-import sys
-input = sys.stdin.readline
-num = int(input())
-str = input()
+n = int(input())
+nums = input()
 sum = 0
-num_li=[]
-for i in range(num):
-    num_li.append(int(str[i]))
-    sum += num_li[i]
+for i in range(n) :
+    sum += int(nums[i])
+
 print(sum)
